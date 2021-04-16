@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(115, 181, 214);
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 6.5rem;
+}
+
+span {
+    font-family: cursive;
+    font-size: 4rem;
+}
+
+.counter {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: black;
+    background-color: #4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background-color: #4095c6;
+}
+
+@media all and (max-width:30em) {
+    .btn {
+        display: block;
+        margin: 0.2em auto;
+    }
+}
